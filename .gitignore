@@ -1,0 +1,23 @@
+# Never commit anything derived from a game disc.
+*.iso
+*.xbe
+xbe/
+game/
+hdd/
+analysis/
+titles/
+
+# Build output and fetched dependencies
+build/
+build64/
+build64_*/
+build_clang/
+third_party/XbSymbolDatabase/
+__pycache__/
+*.log
+build_log.txt
+build_xbsdb_log.txt
+*_win/
+third_party/SDL3-*/
+deps/
+third_party/*.zip

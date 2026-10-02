@@ -1,0 +1,15 @@
+# Kakuto Chojin (North America/World): entry points of functions reached only through pointers
+000fa165
+0017a068
+00184c25
+00187ef9
+00194795
+001947dd
+00196e4b
+00196e6b
+00196ef1
+00196fa9
+00199c02
+001a912b
+001f8c62
+001f9331
