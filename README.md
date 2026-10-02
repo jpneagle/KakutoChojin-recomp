@@ -14,9 +14,18 @@ translated function by function into C (lifting) and compiled; the Xbox kernel, 
 are replaced with PC implementations. Supports high resolutions (up to 4K), widescreen and game controllers.
 It can also decompile the game into readable C with Ghidra.
 
-**This repository contains no game data or code.** You use an image made from a disc you own (at your own
-responsibility). For the tested versions, `hints/` holds lists of function start addresses (numbers only) that
-help the conversion.
+## Legal notice
+
+- This project does not contain or distribute any game code, data or assets of Kakuto Chojin (apart from the
+  screenshots in this README). You must provide your own lawfully obtained copy of the game; use is at your own
+  responsibility.
+- **Do not distribute** converted executables (`KakutoChojin.exe`), lifted or decompiled game code (`analysis\`), or
+  extracted game files (`game\`). Everything the converter produces stays on your own computer.
+- For the tested versions, `hints/` holds lists of function start addresses (numbers only) that help the conversion.
+- The runtime answers the game's DVD authentication query as authenticated only so that an image of your own disc
+  can run; it does not decrypt or remove any protection from disc contents.
+- This is an independent compatibility and preservation project. It is not affiliated with or endorsed by Microsoft.
+  Kakuto Chojin and Xbox are trademarks of their respective owners.
 
 ## Supported versions
 
@@ -227,8 +236,8 @@ cmake --build build -j 2
 
 ## License
 
-KakutoChojin-recomp is released under the [MIT License](LICENSE). Kakuto Chojin itself and its data are not
-part of this project; use a disc you own.
+KakutoChojin-recomp is released under the [MIT License](LICENSE). The MIT license applies only to the original code
+in this repository and does not grant any rights to Kakuto Chojin or any other third-party copyrighted material.
 
 ## Dependencies and licenses
 
