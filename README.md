@@ -218,6 +218,11 @@ cmake --build build -j 2
 ./build/bin/KakutoChojin game analysis/manifest.txt hdd
 ```
 
+## License
+
+KakutoChojin-recomp is released under the [MIT License](LICENSE). Kakuto Chojin itself and its data are not
+part of this project; use a disc you own.
+
 ## Dependencies and licenses
 
 - [XbSymbolDatabase](https://github.com/Cxbx-Reloaded/XbSymbolDatabase) — MIT

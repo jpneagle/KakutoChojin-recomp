@@ -217,6 +217,11 @@ cmake --build build -j 2
 ./build/bin/KakutoChojin game analysis/manifest.txt hdd
 ```
 
+## ライセンス
+
+KakutoChojin-recomp は [MIT ライセンス](LICENSE) で公開している。『格闘超人』本体とそのデータは
+このプロジェクトに含まれない (自分で所有するディスクを使うこと)。
+
 ## 依存とライセンス
 
 - [XbSymbolDatabase](https://github.com/Cxbx-Reloaded/XbSymbolDatabase) — MIT
