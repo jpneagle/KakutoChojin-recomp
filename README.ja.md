@@ -2,6 +2,13 @@
 
 [English](README.md) | 日本語
 
+<p align="center">
+  <img src="docs/images/title.jpg" width="32%" alt="Title screen">
+  <img src="docs/images/character_select.jpg" width="32%" alt="Character select">
+  <img src="docs/images/fight.jpg" width="32%" alt="Fight">
+</p>
+<p align="center"><sub>日本版、フル HD (1080p) ワイドスクリーン</sub></p>
+
 初代 Xbox 用ソフト『格闘超人 / Kakuto Chojin』を、Windows で動くネイティブのプログラムに変換するツール。
 ゲームの x86 機械語を関数単位で C に変換 (リフティング) してコンパイルし、Xbox のカーネル・Direct3D 8・
 DirectSound・入力は PC 向けの実装に置き換える。高解像度 (最大 4K)・ワイドスクリーン・ゲームパッドに対応。

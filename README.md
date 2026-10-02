@@ -2,6 +2,13 @@
 
 English | [日本語](README.ja.md)
 
+<p align="center">
+  <img src="docs/images/title.jpg" width="32%" alt="Title screen">
+  <img src="docs/images/character_select.jpg" width="32%" alt="Character select">
+  <img src="docs/images/fight.jpg" width="32%" alt="Fight">
+</p>
+<p align="center"><sub>Japanese version, Full HD (1080p) widescreen</sub></p>
+
 Turns the original Xbox game *Kakuto Chojin* into a native Windows program. The game's x86 machine code is
 translated function by function into C (lifting) and compiled; the Xbox kernel, Direct3D 8, DirectSound and input
 are replaced with PC implementations. Supports high resolutions (up to 4K), widescreen and game controllers.
